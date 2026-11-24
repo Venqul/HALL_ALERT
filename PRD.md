@@ -88,45 +88,42 @@ As a result, repairs are delayed, urgent issues can go unresolved, resulting in 
 1. Student, porter, artisan and hall administrator registration and login.
 2. Ability to submit complaints.
 3. Options to select the type of complaint to be made.
-4. Ability to upload pictures and videos of reported problems.
+4. Ability to upload pictures and/or videos of reported problems.
 5. Direct submission of complaints to the hall administrator.
 6. Administrator dashboard for viewing complaints.
 7. Complaint status tracking (Pending, In Progress and Resolved).
 8. Priority levels for complaints, set and changed by hall administrators and porters.
 9. Assigning complaints to artisans, with an estimated repair time that students can see.
-10. Three-way closure, where the artisan, hall admin, and student must all agree before a complaint is resolved.
+10. Three-way closure, where the artisan, hall administrator, and student must all agree before a complaint is resolved.
 11. Notifications to students, hall adminisrators, and artisans when a complaint's status changes.
-12. Sorting and filtering of complaints by status, priority, and date.
+12. Sorting and filtering of complaints by status, priority, and time opened.
 13. Automatic overdue flag for non-urgent complaints unresolved for more than 7 working days.
 
 ### Out of Scope
 
-1. In-app chat or calling between students, hall administrators, porters, and artisans.
-2. Management of spare parts, materials, or inventory.
-3. Support for multiple languages.
+1. In-app messaging between students, hall administrators, porters, and artisans.
+2. Support for multiple languages.
 
 ## 10. Acceptance Criteria
 
 **AC-01: Complaint Submission**
 - Students must be able to submit hostel maintenance complaints.
-- Students must provide their hostel name, room number, and issue description.
+- Students must provide their hostel name, room number and issue description.
 - Students must be able to upload pictures of the maintenance fault.
 - The system must reject incomplete complaint forms.
 - A confirmation message must appear after successful submission.
 
 **AC-02: Complaint Management**
 - Hall administrators must be able to view submitted complaints.
-- Hall administrators must be able to view relevant maintenance details, including hostel name, room number, issue description, uploaded pictures, complaint status, and urgency level.
+- Hall administrators must be able to view relevant maintenance details, including hostel name, room number, issue description, uploaded pictures, complaint status and urgency level.
 - Hall administrators must be able to update complaint statuses.
 - Hall administrators must be able to set and change complaint urgency levels.
-- The system must automatically flag any unresolved non-urgent complaint that has been open for more than 7 working days.
-- Flagged complaints must be clearly visible on the hall administrator's dashboard.
-- Complaint urgency levels must include Low, Medium, and Urgent.
+- Complaint urgency levels must include Low, Medium and Urgent.
 
 **AC-03: Complaint Tracking**
 - Students must be able to view their submitted complaints.
 - Students must be able to track complaint progress.
-- Complaint statuses must show Pending, In Progress, or Resolved.
+- Complaint statuses must show Pending, In Progress or Resolved.
 
 **AC-04: Estimated Resolution Time**
 - Hall administrators must be able to provide an estimated resolution time.
@@ -134,12 +131,12 @@ As a result, repairs are delayed, urgent issues can go unresolved, resulting in 
 - Changes to the estimated resolution time must be reflected on the platform.
 
 **AC-05: Complaint Resolution**
-- Hall administrators must be able to approve or reject a completed repair, and a complaint can only be marked resolved after the artisan, hall admin, and student have all agreed.
-- Students must be able to confirm or reject the resolved status.
+- Hall administrators must be able to mark completed complaints as resolved after agreement by both students and artisans.
+- Students must be able to view the resolved status.
 
 **AC-06: Usability**
 - The platform must provide a clear and easy-to-use interface.
-- Students must be able to submit and track complaints without physically visiting the hall administrator's office.
+- Students must be able to submit and track complaints without physically visiting the hall administrator’s office.
 
 **AC-07: Anonymous Rating and Feedback**
 - Students must be able to submit anonymous ratings after their complaints have been resolved.
